@@ -12,7 +12,7 @@ def send_welcome(message):
 
 @bot.message_handler(commands=['chart'])
 def chart(message):
-    bot.reply_to(message, "📊 Chart: https://dexscreener.com/solana/bnrpnul3p6zfsvwv6nfyat2xns2ozgrcqvcuk4hpkawk")
+    bot.reply_to(message, "📊 Chart: https://dexscreener.com/solana/bnrpnul3p6zfsvwv6nfyat2xns2ozgrcqcvuk4hpkawk")
 
 @bot.message_handler(commands=['buy'])
 def buy(message):
@@ -24,7 +24,7 @@ def website(message):
 
 @bot.message_handler(commands=['twitter'])
 def twitter(message):
-    bot.reply_to(message, "🐦 Twitter: https://x.com/DogeDaddySol")
+    bot.reply_to(message, "🐦 Twitter: https://x.com/DogeDaddy_coins")
 
 @bot.message_handler(commands=['telegram', 'community'])
 def telegram(message):
