@@ -2,6 +2,10 @@ import os
 import telebot
 
 API_KEY = os.getenv("API_KEY")
+
+if not API_KEY:
+    raise ValueError("API_KEY is missing. Make sure it's set in Render environment variables.")
+
 bot = telebot.TeleBot(API_KEY)
 
 @bot.message_handler(commands=['start', 'help'])
